@@ -1,10 +1,15 @@
 let holidaySearch = $("#holidaySearch")
 
-function printResults() {
+function getHolidays() {
     fetch("https://national-api-day.herokuapp.com/api/today")
         .then(function (response) {
-            console.log(response);
+            let resultsEl = $("#holidayResults");
+            let holidayEl = document.createElement("p");
+
+            holidayEl.setAttribute("href", "https://national-api-day.herokuapp.com/api/today");
+
+            // resultsEl.appendChild(holidayEl);      
         });
 };
 
-$(holidaySearch).on("click", printResults);
+$(holidaySearch).on("click", getHolidays);
