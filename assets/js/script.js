@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 let holidaySearch = $("#holidaySearch")
+let holidayResults = $("#holidayResults")
 
 function printResults() {
 fetch("https://national-api-day.herokuapp.com/api/today")
@@ -9,10 +9,6 @@ fetch("https://national-api-day.herokuapp.com/api/today")
 };
 
 $(holidaySearch).on("click", printResults);
-=======
-let holidaySearch = $("#holidaySearch");
-let holidayResults = $("#holidayResults");
->>>>>>> develop
 
 function getHolidays() {
     fetch("https://national-api-day.herokuapp.com/api/today")
