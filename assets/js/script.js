@@ -28,11 +28,11 @@ function getRecipe() {
         .then(function (response) {
             // let resultsEl = $("#recipeResults")
             // let recipeEl = document.createElement("p");
-            console.log("hello")
+            console.log(response);
     })
 }
 
-$(document).ready(function (response) {
+$(document).ready(function () {
     $(holidaySearch).on("click", getHolidays);
     $(recipeSearch).on("click", getRecipe);
 })
