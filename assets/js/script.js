@@ -1,5 +1,6 @@
 let holidaySearch = $("#holidaySearch")
 let holidayResults = $("#holidayResults")
+let recipeSearch = $("#recipeSearch");
 
 function printResults() {
 fetch("https://national-api-day.herokuapp.com/api/today")
@@ -22,13 +23,17 @@ function getHolidays() {
         });
 };
 
-$(holidaySearch).on("click", getHolidays);
-
 function getRecipe() {
     fetch("https://api.spoonacular.com/recipes/complexSearch?apiKey=a71abed719d541e9a4342518ad2e1fba")
         .then(function (response) {
-        console.log(response);
+            // let resultsEl = $("#recipeResults")
+            // let recipeEl = document.createElement("p");
+            console.log("hello")
     })
 }
 
-getRecipe();
+$(document).ready(function (response) {
+    $(holidaySearch).on("click", getHolidays);
+    $(recipeSearch).on("click", getRecipe);
+})
+
