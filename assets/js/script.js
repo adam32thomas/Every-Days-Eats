@@ -1,4 +1,15 @@
 let holidaySearch = $("#holidaySearch")
+let holidayResults = $("#holidayResults")
+let recipeSearch = $("#recipeSearch");
+
+function printResults() {
+fetch("https://national-api-day.herokuapp.com/api/today")
+    .then(function(resp){
+        console.log(resp)
+});
+};
+
+$(holidaySearch).on("click", printResults);
 
 function getHolidays() {
     fetch("https://national-api-day.herokuapp.com/api/today")
@@ -12,4 +23,17 @@ function getHolidays() {
         });
 };
 
-$(holidaySearch).on("click", getHolidays);
+function getRecipe() {
+    fetch("https://api.spoonacular.com/recipes/complexSearch?apiKey=a71abed719d541e9a4342518ad2e1fba")
+        .then(function (response) {
+            // let resultsEl = $("#recipeResults")
+            // let recipeEl = document.createElement("p");
+            console.log(response);
+    })
+}
+
+$(document).ready(function () {
+    $(holidaySearch).on("click", getHolidays);
+    $(recipeSearch).on("click", getRecipe);
+})
+
