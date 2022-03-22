@@ -25,7 +25,7 @@ function getHolidays() {
 $(holidaySearch).on("click", getHolidays);
 
 function getRecipe() {
-    fetch("https://api.spoonacular.com/recipes/complexSearch")
+    fetch("https://api.spoonacular.com/recipes/complexSearch?apiKey=a71abed719d541e9a4342518ad2e1fba")
         .then(function (response) {
         console.log(response);
     })
