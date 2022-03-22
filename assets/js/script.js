@@ -1,4 +1,5 @@
-let holidaySearch = $("#holidaySearch")
+let holidaySearch = $("#holidaySearch");
+let holidayResults = $("#holidayResults");
 
 function getHolidays() {
     fetch("https://national-api-day.herokuapp.com/api/today")
@@ -13,3 +14,12 @@ function getHolidays() {
 };
 
 $(holidaySearch).on("click", getHolidays);
+
+function getRecipe() {
+    fetch("https://api.spoonacular.com/recipes/complexSearch")
+        .then(function (response) {
+        console.log(response);
+    })
+}
+
+getRecipe();
