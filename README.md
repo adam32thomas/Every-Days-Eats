@@ -1,12 +1,10 @@
 # Every-Days-Eats
 
-# Project Title
-
-Simple overview of use/purpose.
+Every Days Eats is built as a fun way to help users cerate a meal plan based on any of the various holiday themes for each day of the year.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This simple single page site utilizes a pair of APIs and Bulma to allow users to .
 
 ## Getting Started
 
