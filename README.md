@@ -4,49 +4,29 @@ Every Days Eats is built as a fun way to help users cerate a meal plan based on 
 
 ## Description
 
-This simple single page site utilizes a pair of APIs and Bulma to allow users to .
+This simple single page site utilizes a pair of APIs and Bulma to allow users to search for creative meal inspiration and then find recipes using keywords within the same page.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+There are currently no dependencies for this program.  It is designed to be responsive and run in any standard web browser.
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Alexander Fedoriouk
+Olamide Bello
+Adam Belin
+Eric Spencer
+Rich Coady
+Adam Thomas
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+0.1
+   Initial Release
 
 ## License
 
