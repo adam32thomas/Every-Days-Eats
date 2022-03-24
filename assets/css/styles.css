@@ -1,237 +1,242 @@
 /* Universal Selector */
-*{
-    box-sizing: border-box;
-     padding: 0;
-     margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-   
- /* Element Selector - apply styles to <body> */
- body 
-     {background-color: #2aabfb;
-     font-family: Helvetica, Arial, sans-serif;
-     background-image: url("../images/desk-calendar-template-1-.jpg");
-     background-size: cover;
-   }
 
-   body::after {
-    content: "";
-    background: url("../images/desk-calendar-template-1-.jpg");
-    opacity: 30%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
+/* Element Selector - apply styles to <body> */
+body {
+  background-color: #2aabfb;
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url("../images/desk-calendar-template-1-.jpg");
+  background-size: cover;
+}
 
-.logo 
-    {
-     background-color: none;
-     background-image:url ("../images/F-D-Logo-3.png");
-     height: 50px;
-     width: 50px;
-     display: inline-block;
-     background-size: cover;
-     background-position: left;
-   }
+body::after {
+  content: "";
+  background: url("../images/desk-calendar-template-1-.jpg");
+  opacity: 30%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 
-   .head{
-    padding: 20px 35px;
-    background-color: #049df6;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:25px;
-    display: inline-block;
-    width: 100%;
-  }
+.logo {
+  background-color: none;
+  background-image: url ("../images/F-D-Logo-3.png");
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  background-size: cover;
+  background-position: left;
+}
 
-   
-  
- /* Main Hero Image - Design Portfolio */
- .hero {
-   height: 500px;
-   width: 100%;
-   opacity: 30%;
-   margin-bottom: 25px;
-   background-size: cover;
-   background-position: center;
-   position: relative;
-   }
+.head {
+  padding: 20px 35px;
+  background-color: #049df6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  width: 100%;
+}
 
-   .hero-form{
-    height: 200px;
-    width: 350px;
-    margin-bottom: 25px;
-    background-image: url("");
-    background-color: #f2faff;
-    background-size: cover;
-    background-position: relative;
-    border-radius: 15px;
-    opacity: 90%;
-    padding-bottom: 100px;
-    padding-left: 60px;
-   }
+/* Main Hero Image - Design Portfolio */
+.hero {
+  height: 500px;
+  width: 100%;
+  opacity: 30%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 
-   .dinner {
-     color: black;
-     justify-content: flex-start;
-     position: absolute;
-     top: 250px;
-   }
+.hero-form {
+  height: 200px;
+  width: 350px;
+  margin-bottom: 25px;
+  background-image: url("");
+  background-color: #f2faff;
+  background-size: cover;
+  background-position: relative;
+  border-radius: 15px;
+  opacity: 90%;
+  padding-bottom: 100px;
+  padding-left: 60px;
+}
 
-   /* Element Selector apply styles to <header> */
-   .head {
-     padding: 20px 35px;
-     background-color: #02b5f6;
-     font-family: Arial, Helvetica, sans-serif;
-     font-size:25px;
-     display: inline-block;
-     width: 100%;
-   }
+.dinner {
+  color: black;
+  justify-content: flex-start;
+  position: absolute;
+  top: 250px;
+}
 
-   #heading{
-     display:inline-block;
-   }
+/* Element Selector apply styles to <header> */
+.head {
+  padding: 20px 35px;
+  background-color: #02b5f6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  width: 100%;
+}
 
-   .nav {
-     display:inline-table;
-     font-size: 15px;
-     font-family: Arial, Helvetica, sans-serif;
-     float: right;
-     padding-left: 50px;
-   }
+#heading {
+  display: inline-block;
+}
 
-   .nav_links{
-    display:inline-table;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
-    padding-left: 50px;
-   }
-   
- /* Class Selector */
- .header div {
-     padding-top: 15px;
-     margin-right: 20px;
-     float:right;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     font-size: 20px;
- }
-     /* Element Selector apply styles to <header h1> */
-   head h1 {
-     font-weight: bold;
-     font-size: 30px;
-     color: #0072b8;
-     margin: 0;
-     display: inline;
-   }
-   
-   header nav {
-     float: right;
-     margin: 7px 0;
-     position:relative;
-   }
-   
-   .header ul li {
-     display: inline;
-     float: right;
-   }
-   
- /* Class Selector */
- .header div ul {
-     list-style-type: none;
-     float: right;
- }
- /* Class Selector */
- .header div ul li {
-     display: inline-block;
-     margin-left: 30px;
- }
- .header div {
-   padding-top: 15px;
-   margin-right: 20px;
-   float: right;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: 20px;
- }
-   header nav ul li {
-     margin: 0 30px;
-     font-weight: lighter;
-     font-size: 22px;
-   }
-   h1 {
-     padding-bottom: 10px;
-     padding-left: 20px;
-     color: #0072b8;
-     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-   font-size: 40px;
-   }
-   h2 {
-     padding-bottom: 10px;
-     padding-left: 15px;
-     color: #00446d;
-     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-     font-size: 40px;
-   }
-   h3 {
-    padding-bottom: 10px;
-    padding-left: 15px;
-    color: #00446d;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-  }
-  .main-content {
-     display: flex;
-     flex-wrap: wrap;
-     padding: 20px 35px;
-   }
- .search-button{
-    
-        padding: 20px 35px;
-        background-color: #dcf2ff;
-        background-image: linear-gradient(180deg, rgb(0, 123, 255), rgb(6, 226, 251));
-        font-family: Arial, Helvetica, sans-serif;
-        font-size:25px;
-        border-radius: 12px;
-        display: inline-block;
-        width: 100%;
-        padding: 20px;
-        float: none;
-    
-   }
- /* Class Selector */
- .header div ul {
-     list-style-type: none;
- 
- }
- 
- /* Class Selector */
- .header div ul li {
-     display: inline-block;
-     margin-left: 25px;
- }
-  .section {
-     width: 100%;
-     height: 300px;
-     text-align: center;
-     border: 0px;
-     display: inline-block;
-     padding-left: 400px;
-   }
-   .flex-container {
-     display: flex;
-     background-color:none;
-     text-align: center;
-     border:none;
-     flex-wrap: wrap;
- 
-   }
-   #Content {
-     flex:6;
- 
- }
-   
- .card1 {
+.nav {
+  display: inline-table;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  padding-left: 50px;
+}
+
+.nav_links {
+  display: inline-table;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  padding-left: 50px;
+}
+
+/* Class Selector */
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+/* Element Selector apply styles to <header h1> */
+head h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0072b8;
+  margin: 0;
+  display: inline;
+}
+
+header nav {
+  float: right;
+  margin: 7px 0;
+  position: relative;
+}
+
+.header ul li {
+  display: inline;
+  float: right;
+}
+
+/* Class Selector */
+.header div ul {
+  list-style-type: none;
+  float: right;
+}
+
+/* Class Selector */
+.header div ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+header nav ul li {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+h1 {
+  padding-bottom: 10px;
+  padding-left: 20px;
+  color: #0072b8;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  padding-bottom: 10px;
+  padding-left: 15px;
+  color: #00446d;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 40px;
+}
+
+h3 {
+  padding-bottom: 10px;
+  padding-left: 15px;
+  color: #00446d;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 35px;
+}
+
+.search-button {
+  padding: 20px 35px;
+  background-color: #dcf2ff;
+  background-image: linear-gradient(180deg, rgb(0, 123, 255), rgb(6, 226, 251));
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-radius: 12px;
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  float: none;
+}
+
+/* Class Selector */
+.header div ul {
+  list-style-type: none;
+}
+
+/* Class Selector */
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.section {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  border: 0px;
+  display: inline-block;
+  padding-left: 400px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: none;
+  text-align: center;
+  border: none;
+  flex-wrap: wrap;
+}
+
+#Content {
+  flex: 6;
+}
+
+.card1 {
   margin: 10px;
   padding: 20px;
   background-image: url("");
@@ -239,41 +244,37 @@
   background-position: center;
   width: 500px;
   height: 300px;
- 
- }
+}
 
- 
- .float-center{
-   float: center;
- }
- 
- 
- .img {
-   width: 200px;
-   height: 200px;
-   background-color: lightblue;
-   /* Margin property */
-   margin: 20px;
-   /* Padding property */
-   padding: 20px;
-   /* Border property */
-   border: 9px solid darkblue;
-   position:left;
-   top:40px;
-   left: 20px;
- }
-   
- 
-   /* Class Selector apply styles to <footer> */
-   footer {
-     background: #d5d5d5;
-     width: 100%;
-     padding: 40px 35px;
-     
-   }
-   @media screen and (max-width: 650px) {
-     main,
-     nav {
-       flex-direction: column;
-     }
-   }
+.float-center {
+  float: center;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  /* Margin property */
+  margin: 20px;
+  /* Padding property */
+  padding: 20px;
+  /* Border property */
+  border: 9px solid darkblue;
+  position: left;
+  top: 40px;
+  left: 20px;
+}
+
+/* Class Selector apply styles to <footer> */
+footer {
+  background: #d5d5d5;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+@media screen and (max-width: 650px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
