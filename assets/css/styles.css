@@ -24,7 +24,7 @@ body {
 }
 
 .head {
-  padding: 20px 35px;
+  padding: 20px 30px;
   background-color: #049df6;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
@@ -33,7 +33,7 @@ body {
 }
 
 /* Main Hero Image - Design Portfolio */
-.hero {
+/* .hero {
   height: 500px;
   width: 100%;
   opacity: 30%;
@@ -41,41 +41,22 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
-}
-
-.hero-form {
-  height: 200px;
-  width: 350px;
-  margin-bottom: 25px;
-  background-image: url("");
-  background-color: #f2faff;
-  background-size: cover;
-  background-position: relative;
-  border-radius: 15px;
-  opacity: 90%;
-  padding-bottom: 100px;
-  padding-left: 60px;
-}
+} */
 
 .dinner {
   color: black;
-  justify-content: flex-start;
-  position: absolute;
-  top: 250px;
+  padding: 35px;
+  font-size: 45px;
 }
 
 /* Element Selector apply styles to <header> */
 .head {
-  padding: 20px 35px;
+  /* padding: 20px 35px; */
   background-color: #02b5f6;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   display: inline-block;
   width: 100%;
-}
-
-#heading {
-  display: inline-block;
 }
 
 .nav {
@@ -103,13 +84,9 @@ body {
   font-size: 20px;
 }
 
-/* Element Selector apply styles to <header h1> */
-head h1 {
-  font-weight: bold;
-  font-size: 30px;
-  color: #0072b8;
-  margin: 0;
-  display: inline;
+.header-title {
+  color: #00446d;
+  font-size: 50px;
 }
 
 header nav {
@@ -173,10 +150,17 @@ h3 {
   font-size: 20px;
 }
 
-.main-content {
-  display: flex;
-  flex-wrap: wrap;
+.main-content {  
   padding: 20px 35px;
+  width: 100%;
+}
+
+.search-box {
+  padding: 15px;
+}
+
+#recipeSearch {
+  padding-bottom: 5rem;
 }
 
 .search-button {
@@ -255,9 +239,9 @@ h3 {
 
 /* Class Selector apply styles to <footer> */
 .footer {
-  background: none;
+  background:#02b5f6;
   width: 100%;
-  padding: 40px 35px;
+  padding: 3rem 1.5rem 2.5rem;
 }
 
 @media screen and (max-width: 650px) {
