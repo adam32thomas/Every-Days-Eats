@@ -23,40 +23,10 @@ body {
   background-position: left;
 }
 
-.head {
-  padding: 20px 30px;
-  background-color: #049df6;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  display: inline-block;
-  width: 100%;
-}
-
-/* Main Hero Image - Design Portfolio */
-/* .hero {
-  height: 500px;
-  width: 100%;
-  opacity: 30%;
-  margin-bottom: 25px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-} */
-
 .dinner {
   color: black;
   padding: 35px;
   font-size: 45px;
-}
-
-/* Element Selector apply styles to <header> */
-.head {
-  /* padding: 20px 35px; */
-  background-color: #02b5f6;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  display: inline-block;
-  width: 100%;
 }
 
 .nav {
@@ -67,49 +37,57 @@ body {
   padding-left: 50px;
 }
 
-.nav_links {
+/* .nav_links {
   display: inline-table;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   float: right;
   padding-left: 50px;
-}
+} */
 
 /* Class Selector */
-.header div {
+/* .header div {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
-}
+} */
 
 .header-title {
   color: #00446d;
   font-size: 50px;
 }
 
+header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  background: #02b5f6;
+}
+
 header nav {
-  float: right;
   margin: 7px 0;
   position: relative;
 }
 
-.header ul li {
-  display: inline;
-  float: right;
+header nav ul { 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
-/* Class Selector */
-.header div ul {
-  list-style-type: none;
-  float: right;
+header nav ul li a {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;  
+  padding-left: 50px;
 }
 
-/* Class Selector */
-.header div ul li {
-  display: inline-block;
-  margin-left: 30px;
+header nav ul li a:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 .header div {
@@ -122,7 +100,6 @@ header nav {
 
 header nav ul li {
   margin: 0 30px;
-  font-weight: lighter;
   font-size: 22px;
 }
 
@@ -174,11 +151,6 @@ h3 {
   width: 100%;
   padding: 20px;
   float: none;
-}
-
-/* Class Selector */
-.header div ul {
-  list-style-type: none;
 }
 
 /* Class Selector */
@@ -242,6 +214,7 @@ h3 {
   background:#02b5f6;
   width: 100%;
   padding: 3rem 1.5rem 2.5rem;
+  height: 150px;
 }
 
 @media screen and (max-width: 650px) {
