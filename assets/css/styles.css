@@ -4,13 +4,20 @@
   padding: 0;
   margin: 0;
 }
+html {
+  height: 100%;
+}
 
 /* Element Selector - apply styles to <body> */
 body {
+  display: flex;
+  flex-direction: column;
   background-color: #2aabfb;
   font-family: Helvetica, Arial, sans-serif;
-  background-image: url("../images/desk-calendar-template-1-.jpg");
+  background-image: url("../images/background.jpg");
   background-size: cover;
+  height: 100%;
+  min-height: 100vh;
 }
 
 .logo {
@@ -215,6 +222,7 @@ h3 {
   width: 100%;
   padding: 3rem 1.5rem 2.5rem;
   height: 150px;
+  margin-top: auto;
 }
 
 @media screen and (max-width: 650px) {
