@@ -13,18 +13,6 @@ body {
   background-size: cover;
 }
 
-/* body::after {
-  content: "";
-  background: url("../images/desk-calendar-template-1-.jpg");
-  opacity: 30%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-} */
-
 .logo {
   background-color: none;
   background-image: url ("../images/F-D-Logo-3.png");
