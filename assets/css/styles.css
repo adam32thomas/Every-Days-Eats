@@ -13,7 +13,7 @@ body {
   background-size: cover;
 }
 
-body::after {
+/* body::after {
   content: "";
   background: url("../images/desk-calendar-template-1-.jpg");
   opacity: 30%;
@@ -23,7 +23,7 @@ body::after {
   right: 0;
   position: absolute;
   z-index: -1;
-}
+} */
 
 .logo {
   background-color: none;
@@ -266,8 +266,8 @@ h3 {
 }
 
 /* Class Selector apply styles to <footer> */
-footer {
-  background: #d5d5d5;
+.footer {
+  background: none;
   width: 100%;
   padding: 40px 35px;
 }
