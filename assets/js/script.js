@@ -36,3 +36,6 @@ $(document).ready(function () {
     $(holidaySearch).on("click", getHolidays);
     $(recipeSearch).on("click", getRecipe);
 })
+
+
+
