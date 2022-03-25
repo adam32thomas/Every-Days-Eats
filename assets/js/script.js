@@ -37,7 +37,11 @@ $(document).ready(function () {
     $(recipeSearch).on("click", getRecipe);
 })
 
+<<<<<<< HEAD
 // $( function() {
 //     $( "#datepicker" ).datepicker();
 //   } );
+=======
+
+>>>>>>> develop
 

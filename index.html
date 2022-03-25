@@ -14,36 +14,65 @@
 </head>
 
 <body>
-    <!-- navbar -->
-    <header>
-        <div class="head">
-            <h1 class="is-1">Every Day Eats.</h1>
-            <nav>
-                <ul class="nav_links">
-                    <li>
-                        <a href="holidays">Find Holidays</a>
-                    </li>
-                    <li>
-                        <a href="recipes">Find Recipes</a>
-                    </li>
-                    <li>
-                        <a href="about-us">About Us</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    </div>
-    <!-- Hero -->
-    <section class="hero">
+    <div class="wrapper">
+    <!-- <div id="wrapper"> -->
+        <!-- navbar -->
+        <!-- <div class="headerContent">
+            <header>
+                <div>
+                    <h1 class="title is-1 header-title">Every Day Eats.</h1>
+                </div>
+                <nav>
+                    <ul class="nav_links">
+                        <li>
+                            <a href="#holidays">Find Holidays</a>
+                        </li>
+                        <li>
+                            <a href="#recipes">Find Recipes</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                    </ul>
+                </nav> -->
+                <header>
+                <nav class="navbar">
+                    <div class="navbar-brand">
+                        <a class="navbar-item">
+                            <img src="./assets/images/F-D-Logo-3.png" style="max-height: 70px" class="py-2 px-2">
+                            <a class="navbar-item">Every Day Eats.</a>
+                        </a>
+                    </div>
 
-    </section>
-    <!-- Hero End -->
-    <div>
-        <h3 class="dinner title is-3">What's For Dinner?</h3>
+
+                    <div class="navbar-menu is-justify-content-space-between" id="nav-links">
+                        <div class="navbar-end">
+                            <ul>
+                                <li>
+                                    <a href="datepicker">Find Holidays</a>
+                                </li>
+                                <li>
+                                    <a href="recipeSearch">Find Recipes</a>
+                                </li>
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- </header> -->
+        <!-- </div> -->
+    
+
+    <div class="is-full">
+        <h3 class="dinner title is-2">What's For Dinner?</h3>
     </div>
     <!-- Main Section Begin -->
     <main class="main-content">
+<<<<<<< HEAD
         <section>
             <div class="search-box" id="holidaySearch">
                 <button class="search-button">Find Holidays!</button>
@@ -52,52 +81,56 @@
                 <p>Date: <input type="date" id="datepicker"></p>
             </div>
             <div class="search-box" id="recipeSearch">
+=======
+        <section class="columns is-inline-block is-full">
+
+            <div class="search-box column" id="holidaySearch">
+                <p>Date: <input type="date" id="datepicker"></p>
+                <button class="search-button">Find Holidays!</button>
+        
+               
+            <div class="search-box column" id="recipeSearch">
+                <p>Keyword: <input type="text" id=""></p>
+>>>>>>> develop
                 <button class="search-button">Find Recipes!</button>
             </div>
-            <div class="results" id="recipeResults"></div>
-            </header>
-            <!-- Hero -->
-            <section class="hero">
+        </section>
+    </main>
+        <!-- Main Section End -->
 
-                </div>
-            </section>
-            <!-- Hero End -->
-
-            <!-- Main Section Begin -->
-            <main class="main-content">
-                <section>
-                    <div class="search-box">
-                        <button class="search-button">Click here to search!</button>
-                    </div>
-                    <div class="results">
-
-                    </div>
-                </section>
-            </main>
-            <!-- Main Section End -->
-            <!-- Footer Begin -->
+        <!-- Footer Begin -->
+        <!-- <div class="footerContent">
             <footer class="footer">
                 <h2>Made with ❤️ by team &#60;&#47;cuisinières&#62;</h2>
             </footer>
-            <!-- Footer End -->
+        </div> -->
+    </div>
+        <footer>
+            <div class="content has-text-centered">
+                <a class="footer-item">Made with ❤️ by team &#60;&#47;cuisinières&#62;</a>
+            </div>            
+        </footer>
+        <!-- Footer End -->
 
-            <!-- Linked JavaScript/Jquery/Jquery UI -->
+        <!-- Linked JavaScript/Jquery/Jquery UI -->
 
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-            <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
-                integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
-                integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
-                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <script src="./assets/js/script.js" async defer></script>
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-            <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
-                integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
-                integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
-                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+            integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+            integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./assets/js/script.js" async defer></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+            integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+            integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        </section>
+    </div>
 </body>
 
 </html>
