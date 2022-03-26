@@ -14,9 +14,9 @@ $(holidaySearch).on("click", printResults);
 function getHolidays() {
     fetch("https://national-api-day.herokuapp.com/api/today")
         .then(function (response) {
+            console.log(response)
             let resultsEl = $("#holidayResults");
             let holidayEl = document.createElement("p");
-
             holidayEl.setAttribute("href", "https://national-api-day.herokuapp.com/api/today");
 
             // resultsEl.appendChild(holidayEl);      
@@ -28,7 +28,7 @@ function getRecipe() {
         .then(function (response) {
             // let resultsEl = $("#recipeResults")
             // let recipeEl = document.createElement("p");
-            console.log(response);
+            // console.log(response);
     })
 }
 
@@ -37,11 +37,5 @@ $(document).ready(function () {
     $(recipeSearch).on("click", getRecipe);
 })
 
-<<<<<<< HEAD
-// $( function() {
-//     $( "#datepicker" ).datepicker();
-//   } );
-=======
 
->>>>>>> develop
 
