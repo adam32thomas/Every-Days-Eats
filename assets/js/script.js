@@ -50,9 +50,19 @@ fetch("https://national-api-day.herokuapp.com/api/today")
 function getRecipe() {
     fetch("https://api.spoonacular.com/recipes/complexSearch?apiKey=a71abed719d541e9a4342518ad2e1fba")
         .then(function (response) {
-            // let resultsEl = $("#recipeResults")
-            // let recipeEl = document.createElement("p");
-            // console.log(response);
+            return response.json();
+        })
+        .then(function(title){
+            for (let i=0; i < title.length; i++){
+                console.log(title[i])
+            
+        
+            // let resultsEl = ("li")
+            // let recipeEl = document.createElement("li");
+            // recipeEl.textContent = response[i].html_url
+            // resultsEl.appendChild(recipeEl)
+            console.log('title');
+            }
     })
 }
 
