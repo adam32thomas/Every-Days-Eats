@@ -9,7 +9,7 @@ fetch("https://national-api-day.herokuapp.com/api/today")
 });
 };
 
-$(holidaySearch).on("click", printResults);
+
 
 function getHolidays() {
     fetch("https://national-api-day.herokuapp.com/api/today")
@@ -19,7 +19,7 @@ function getHolidays() {
 
             holidayEl.setAttribute("href", "https://national-api-day.herokuapp.com/api/today");
 
-            // resultsEl.appendChild(holidayEl);      
+            console.log(response);      
         });
 };
 
@@ -33,15 +33,9 @@ function getRecipe() {
 }
 
 $(document).ready(function () {
-    $(holidaySearch).on("click", getHolidays);
+    // $(holidaySearch).on("click", getHolidays);
     $(recipeSearch).on("click", getRecipe);
+    $(holidaySearch).on("click", printResults);
 })
 
-<<<<<<< HEAD
-// $( function() {
-//     $( "#datepicker" ).datepicker();
-//   } );
-=======
-
->>>>>>> develop
 
