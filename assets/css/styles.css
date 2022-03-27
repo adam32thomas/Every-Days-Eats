@@ -26,6 +26,7 @@ body {
   background-size: cover;
   height: 100%;
   min-height: 100vh;
+  z-index: 75px;
 }
 
 .logo {
@@ -183,6 +184,7 @@ footer {
   height: 75px;
   align-items: center;
   line-height: 50px;
+  position: absolute;
 }
 
 .content {
