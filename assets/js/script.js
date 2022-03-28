@@ -16,14 +16,10 @@ function printResults() {
             console.log(holidays.holidays);
             const html = holidays.holidays
                 .map(holidays => {
-                    // for (let i = 0; i > holidays.length; i++) {
                         console.log(holidays)
-                    // return `<p>Holiday: ${holidays.holidays[i]}</p>`;
-                    // }
+                    return `<p>Holiday: ${holidays}</p>`;
                 })
-                .join("");
-                console.log(html);
-                document.querySelector("#results").insertAdjacentHTML("afterbegin", html);
+            $("#results").html(html)
         })
 }
 
