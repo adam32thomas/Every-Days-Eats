@@ -1,11 +1,8 @@
-let holidaySearch = $("#holidaySearch")
-let holidayResults = $("#holidayResults")
+let holidaySearch = $("#holidaySearch");
+let holidayResults = $("#holidayResults");
 let recipeSearch = $("#recipeSearch");
-let resultsEl = $('#results')
+let resultsEl = $('#results');
 
-// function pageDisplay() {
-//     document.querySelector('#results').innerHTML = '<li>test</li>'
-// }
 
 function printResults() {
     fetch("https://national-api-day.herokuapp.com/api/today")
@@ -14,28 +11,24 @@ function printResults() {
         })
         .then(holidays => {
             console.log(holidays.holidays);
-            const html = holidays.holidays
+            const holidayList = holidays.holidays
                 .map(holidays => {
                         console.log(holidays)
-                    return `<li>Holiday: ${holidays}</li>`;
+                    return `<li class="results-items">Holiday: ${holidays}</li>`;
                 })
-            $("#results").html(html)
+            let results = holidayList.join("")
+            $("#results").html(`<ul class="results">${results}</ul>`)
         })
 }
 
-function getRecipe() {
-    fetch("https://api.spoonacular.com/recipes/complexSearch?apiKey=a71abed719d541e9a4342518ad2e1fba")
-        .then(function (response) {
-            // let resultsEl = $("#recipeResults")
-            // let recipeEl = document.createElement("p");
-            // console.log(response);
-        })
-}
+// function getRecipe() {
+//     fetch("https://api.spoonacular.com/recipes/complexSearch?apiKey=a71abed719d541e9a4342518ad2e1fba")
+//         .then(function (response) {
+            
+//         })
+// }
 
-$(document).ready(function () {
-    // $(holidaySearch).on("click", getHolidays);
-    $(recipeSearch).on("click", getRecipe);
+$(document).ready(function () {      
+    // $(recipeSearch).on("click", getRecipe);
     $(holidaySearch).on("click", printResults);
-})
-
-// pageDisplay();
+});
