@@ -18,8 +18,8 @@ fetch("https://national-api-day.herokuapp.com/api/today")
             resultsEl.appendChild(holidayEl)
          
 
- }
- console.log(holidays)
+ } 
+//  console.log(holidays)
          })
         }
 
