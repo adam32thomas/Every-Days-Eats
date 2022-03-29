@@ -16,12 +16,12 @@ There are currently no dependencies for this program.  It is designed to be resp
 
 Contributors names and contact info
 
-Alexander Fedoriouk
-Olamide Bello
-Adam Belin
-Eric Spencer
-Rich Coady
-Adam Thomas
+* Alexander Fedoriouk
+* Olamide Bello
+* Adam Belin
+* Eric Spencer
+* Rich Coady
+* Adam Thomas - github: adam32thomas - email: adam32thomas@gmail.com
 
 ## Version History
 
@@ -36,7 +36,8 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 
 Inspiration, code snippets, etc.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* Spoonacular.com
+* Herokuapp.com
+
+![image](https://user-images.githubusercontent.com/97974201/160715685-131c04ef-6681-4349-b894-b7d87cbe3eb7.png)
+
