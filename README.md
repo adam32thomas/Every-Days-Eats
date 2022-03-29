@@ -20,7 +20,7 @@ Contributors names and contact info
 * Olamide Bello
 * Adam Belin
 * Eric Spencer
-* Rich Coady
+* Rich Coady - github: https://github.com/NX74205-A - coady.richard87@yahoo.com
 * Adam Thomas - github: adam32thomas - email: adam32thomas@gmail.com
 
 ## Version History
