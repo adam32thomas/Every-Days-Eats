@@ -17,7 +17,7 @@ function printResults() {
             const html = holidays.holidays
                 .map(holidays => {
                         console.log(holidays)
-                    return `<p>Holiday: ${holidays}</p>`;
+                    return `<li>Holiday: ${holidays}</li>`;
                 })
             $("#results").html(html)
         })
