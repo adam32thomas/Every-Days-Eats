@@ -18,8 +18,8 @@ Contributors names and contact info
 
 * Alexander Fedoriouk
 * Olamide Bello
-* Adam Belin
-* Eric Spencer
+* Adam Belin github: [adambelin](https://github.com/adambelin) - email: adambelin1992@gmail.com - LinkedIn: [Adam Belin](https://www.linkedin.com/in/adam-belin-803112167/)
+* Eric Spencer github: [spence22eric](https://github.com/spence22eric) - email: spence22eric@gmail.com - LinkedIn: [Eric Spencer](www.linkedin.com/in/ericspencer22)
 * Rich Coady - github: https://github.com/NX74205-A - coady.richard87@yahoo.com
 * Adam Thomas - github: adam32thomas - email: adam32thomas@gmail.com
 
